@@ -1,0 +1,35 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        helvetica: "helvetica",
+        MerriweatherLight: "MerriWeather-Light",
+        MerriWeatherBlack: "MerriWeather-Black",
+        MerriWeatherBlackItalic: "MerriWeather-BlackItalic",
+        MerriWeatherBold: "MerriWeather-Bold",
+        MerriWeatherBoldItalic: "MerriWeather-BoldItalic",
+        MerriWeatherItalic: "MerriWeather-Italic",
+        MerriWeatherLightItalic: "MerriWeather-LightItalic",
+        MerriWeatherRegular: "MerriWeather-Regular",
+        SourceSerifProExtraLight: "SourceSerifPro-ExtraLight",
+        LatoItalic: "LatoItalic",
+        PlayfairDisplayBlack: "PlayfairDisplay-Black",
+        PlayfairDisplayBlackItalic: "PlayfairDisplay-BlackItalic",
+        PlayfairDisplayBold: "PlayfairDisplay-Bold",
+        PlayfairDisplayBoldItalic: "PlayfairDisplay-BoldItalic",
+        PlayfairDisplayExtraBold: "PlayfairDisplay-ExtraBold",
+        PlayfairDisplayExtraBoldItalic: "PlayfairDisplay-ExtraBoldItalic",
+        PlayfairDisplayItalic: "PlayfairDisplay-Italic",
+        PlayfairDisplayMedium: "PlayfairDisplay-Medium",
+        PlayfairDisplayMediumItalic: "PlayfairDisplay-MediumItalic",
+        PlayfairDisplayRegular: "PlayfairDisplay-Regular",
+        PlayfairDisplaySemiBold: "PlayfairDisplay-SemiBold",
+        PlayfairDisplaySemiBoldItalic: "PlayfairDisplay-SemiBoldItalic",
+        RighteousRegular: "Righteous-Regular",
+      },
+    },
+  },
+  plugins: [],
+};
