@@ -1,21 +1,30 @@
 import React, { useRef } from "react";
-import { ReactComponent as MyIcon } from "../svg/myIcon.svg";
-import { ReactComponent as NodeIcon } from "../svg/nodeIcon.svg";
-import { ReactComponent as ReactIcon } from "../svg/reactIcon.svg";
-import { ReactComponent as SassIcon } from "../svg/sassIcon.svg";
-import { ReactComponent as MongodbIcon } from "../svg/mongodbIcon.svg";
-import { ReactComponent as TailwindIcon } from "../svg/tailwindIcon.svg";
-import { ReactComponent as PythonIcon } from "../svg/pythonIcon.svg";
-import { ReactComponent as AzureIcon } from "../svg/azureIcon.svg";
-import { ReactComponent as ExpressIcon } from "../svg/expressIcon.svg";
-import { ReactComponent as JQueryIcon } from "../svg/jqueryIcon.svg";
-import { ReactComponent as GitHubIcon } from "../svg/githubIcon.svg";
-import { ReactComponent as FirebseIcon } from "../svg/firebaseIcon.svg";
-import { ReactComponent as BootstrapIcon } from "../svg/bootstrapIcon.svg";
-import { ReactComponent as JavaIcon } from "../svg/javaIcon.svg";
-import { ReactComponent as LinuxIcon } from "../svg/linuxIcon.svg";
-import { ReactComponent as RestApi } from "../svg/restApiIcon.svg";
-import reduxImage from "../svg/reduxDarkIcon.png";
+import { ReactComponent as MongodbIcon } from "../skillsSvgs/row1/icons8-mongodb.svg";
+import { ReactComponent as ExpressIcon } from "../skillsSvgs/row1/icons8-express-js.svg";
+import { ReactComponent as ReactIcon } from "../skillsSvgs/row1/icons8-react-js.svg";
+import { ReactComponent as NodeIcon } from "../skillsSvgs/row1/icons8-nodejs.svg";
+import { ReactComponent as Javascript } from "../skillsSvgs/row1/icons8-javascript.svg";
+import { ReactComponent as Typescript } from "../skillsSvgs/row1/icons8-typescript-96.svg";
+import { ReactComponent as C } from "../skillsSvgs/row2/icons8-c.svg";
+import { ReactComponent as C_Plus_Plus } from "../skillsSvgs/row2/icons8-c++.svg";
+import { ReactComponent as Java } from "../skillsSvgs/row2/icons8-java.svg";
+import { ReactComponent as Dart } from "../skillsSvgs/row2/icons8-dart.svg";
+import { ReactComponent as Python } from "../skillsSvgs/row2/icons8-python.svg";
+import { ReactComponent as Git } from "../skillsSvgs/row2/icons8-git.svg";
+import { ReactComponent as Github } from "../skillsSvgs/row3/icons8-github.svg";
+import GraphQL from "../skillsSvgs/row3/graphQL.png";
+import RestAPI from "../skillsSvgs/row3/icons8-rest-api-100.png";
+import { ReactComponent as Firebase } from "../skillsSvgs/row3/icons8-firebase.svg";
+import { ReactComponent as Firestore } from "../skillsSvgs/row3/icons8-firestore.svg";
+import { ReactComponent as Redux } from "../skillsSvgs/row3/icons8-redux.svg";
+import { ReactComponent as Redux_Toolkit } from "../skillsSvgs/row4/icons8-redux.svg";
+import { ReactComponent as HTML } from "../skillsSvgs/row4/icons8-html5.svg";
+import { ReactComponent as CSS } from "../skillsSvgs/row4/icons8-css3.svg";
+import { ReactComponent as Bootstrap } from "../skillsSvgs/row4/icons8-bootstrap.svg";
+import { ReactComponent as SCSS } from "../skillsSvgs/row4/icons8-sass-avatar.svg";
+import { ReactComponent as Chakra_UI } from "../skillsSvgs/row4/icons8-chakra-ui.svg";
+import { ReactComponent as Aunt_Design } from "../skillsSvgs/row5/auntDesign.svg";
+import { ReactComponent as React_Native } from "../skillsSvgs/row5/icons8-react-native.svg";
 
 // Work Experience Images Imports
 import infoImage from "../Invicuts-Images/info.png";
@@ -59,7 +68,7 @@ function Resume() {
           {/* Section 1  */}
           <div className="h-[17.125rem] bg-[#f8fffa]">
             <div className="text-[60px] mt-[3.438rem] ml-[2.625rem] h-[30px] inline-block w-[43rem] font-PlayfairDisplayBlackItalic">
-              Abdullah Sultan
+              Ahmad Jajja
             </div>
             <div className="text-[32.6761px] leading-[46.6761px] ml-[2.625rem] w-[27rem] relative bottom-[0.5rem] font-SourceSerifProExtraLight font-semibold">
               Software Engineer
@@ -72,7 +81,7 @@ function Resume() {
             <div className="relative">
               {/* Github */}
               <a
-                href="https://github.com/Abdullah-9862873"
+                href="https://github.com/Ahmadjajja"
                 className="absolute right-[16.5rem] bottom-[115px] cursor-pointer"
               >
                 <img
@@ -82,7 +91,7 @@ function Resume() {
               </a>
               {/* Linked in */}
               <a
-                href="https://www.linkedin.com/in/abdullah-sultan-923883254/"
+                href="https://www.linkedin.com/in/ahmad-jajja-ba8b34210/"
                 className="cursor-pointer"
               >
                 <div className="absolute right-[13.7rem] bottom-[115px]">
@@ -94,7 +103,7 @@ function Resume() {
               </a>
               {/* Leet code */}
               <a
-                href="https://leetcode.com/Abdullah9862873/"
+                href="https://leetcode.com/ahmadjajja86/"
                 className="absolute right-[10.9rem] bottom-[115px] cursor-pointer"
               >
                 <div className="w-[35px] h-[35px]">
@@ -126,7 +135,7 @@ function Resume() {
                   />
                 </div>
                 <div className="inline-block items-center justify-center ml-[7px] text-[20.7449px] leading-[20.7449px] tracking-tighter font-LatoItalic">
-                  +92 &nbsp; 3361412744
+                  +92 &nbsp; 3419853167
                 </div>
               </div>
             </div>
@@ -141,10 +150,10 @@ function Resume() {
                   />
                 </div>
                 <a
-                  href="mailto:ag9862873@gmail.com"
+                  href="mailto:ahmadjajja86@gmail.com"
                   className="inline-block items-center justify-center ml-[7px] font-MerriWeatherBlack tracking-tighter tracking-wide"
                 >
-                  ag9862873@gmail.com
+                  ahmadjajja86@gmail.com
                 </a>
               </div>
             </div>
@@ -185,106 +194,129 @@ function Resume() {
 	c-0.113,4.019-0.904,7.924-2.312,11.58C36.547,40.642,33.307,40.126,30,40.038z M43.972,30h12.003
 	c-0.228,6.21-2.559,11.891-6.307,16.348c-2.548-1.722-5.267-3.102-8.111-4.131C43.032,38.358,43.859,34.239,43.972,30z
 	 M9.691,47.846c2.366-1.572,4.885-2.836,7.517-3.781c1.945,4.36,4.737,8.333,8.271,11.698C19.328,54.958,13.823,52.078,9.691,47.846
-	z M32.521,55.763c3.534-3.364,6.326-7.337,8.271-11.698c2.632,0.945,5.15,2.209,7.517,3.781
-	C44.177,52.078,38.672,54.958,32.521,55.763z"
+   z M32.521,55.763c3.534-3.364,6.326-7.337,8.271-11.698c2.632,0.945,5.15,2.209,7.517,3.781
+   C44.177,52.078,38.672,54.958,32.521,55.763z"
                     />
                   </svg>
                 </div>
-                <a href="https://abdullah-sultan.com" className="inline-block items-center justify-center ml-[7px] font-mono tracking-tight">
-                  abdullah-sultan.com
+                <a href="https://ahmad-jajja.com" className="inline-block items-center justify-center ml-[7px] font-mono tracking-tight">
+                  ahmad-jajja.com
                 </a>
               </div>
             </div>
           </div>
 
           {/* Section 2 */}
-          <div className="h-[26.89rem] bg-[#e8ffed] relative">
-            {/* First Logo */}
-            <div className="w-[100px] h-[100px] absolute left-[30px] top-[30px]">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-label="JavaScript"
-                role="img"
-                viewBox="0 0 512 512"
-              >
-                <rect width="542" height="542" rx="15%" fill="#f7df1e" />
-                <path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z" />
-              </svg>
-            </div>
-            {/* Second Logo */}
-            <div className="absolute left-[200px] top-[46px] w-[310px]">
-              <MyIcon />
-            </div>
-            {/* Third Logo */}
-            <div className="w-[140px] absolute left-[551px] top-[0px] flex justify-center">
-              <NodeIcon />
-            </div>
-            {/* Fourth Logo */}
-            <div className="w-[150px] absolute left-[734px] top-[2px]">
-              <ReactIcon />
-            </div>
-            {/* Fifth Logo */}
-            <div className="w-[130px] absolute left-[957px] top-[2px]">
-              <SassIcon />
-            </div>
-            {/* Sixth Logo */}
-            <div className="w-[230px] absolute left-[1185px] top-[45px]">
-              <MongodbIcon />
-            </div>
-            {/* Seventh Logo */}
-            <div className="w-[130px] absolute left-[30px] top-[195px]">
-              <TailwindIcon />
-            </div>
-            {/* Eigth Logo */}
-            <div className="absolute left-[200px] top-[195px] w-[280px]">
-              <AzureIcon />
-            </div>
-            {/* Nineth Logo */}
-            <div className="absolute left-[550px] top-[165px]">
-              <PythonIcon />
-            </div>
-            {/* Tenth Logo */}
-            <div className="absolute left-[734px] top-[150px]">
-              <ExpressIcon />
-            </div>
-            {/* Eleventh Logo */}
-            <div className="w-[230px] absolute left-[910px] top-[168px]">
-              <img src={reduxImage} alt="My Image" />
-            </div>
+          <div className="bg-[#e8ffed] relative ">
+            {/* Row 1 */}
 
-            {/* Twelveth Logo */}
-            <div className="absolute left-[1190px] top-[195px]">
-              <JQueryIcon />
-            </div>
+            <div id="row1" className="flex items-stretch ... pt-3">
+              <div className="col w-[16.6%] pl-9 ">
+                <MongodbIcon />
+                <i className="pl-3 ">MongoDB</i >
 
-            {/* Thirteenth Logo */}
-            <div className="absolute left-[30px] top-[305px]">
-              <GitHubIcon />
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <ExpressIcon />
+                <i className="pl-3 ">Express JS</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <ReactIcon className="mt-5 pb-2" />
+                <i className="pl-3 ">React JS</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <NodeIcon className="pt-2" />
+                <i className="pl-4 ">Node JS</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Javascript />
+                <i className="pl-2 ">Javascript (ES6 +)</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Typescript />
+                <i className="pl-3 ">Typescript</i >
+              </div>
             </div>
-
-            {/* Fourteenth Logo */}
-            <div className="absolute left-[273px] top-[305px]">
-              <FirebseIcon className="w-auto h-[100px]" />
+            {/* Row 2 */}
+            <div id="row2" className="flex items-stretch ... pt-3">
+              <div className="col w-[16.6%] pl-9">
+                <C />
+                <i className="pl-10 ">C</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <C_Plus_Plus />
+                <i className="pl-8 ">C++</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Java />
+                <i className="pl-8 ">Java</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Dart />
+                <i className="pl-8 ">Dart</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Python />
+                <i className="pl-5 ">Python</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Git />
+                <i className="pl-10 ">Git</i >
+              </div>
             </div>
-
-            {/* Fifteenth Logo */}
-            <div className="absolute left-[550px] top-[305px]">
-              <BootstrapIcon />
+            {/* Row 3 */}
+            <div id="row3" className="flex items-stretch ... pt-4">
+              <div className="col w-[16.6%] pl-9">
+                <Github />
+                <i className="pl-6 ">Github</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <img src={GraphQL} alt="GraphQL" />
+                <i className="pl-5 ">GraphQL</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <React_Native />
+                <i className="pl-2 ">ReactNative</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Firebase />
+                <i className="pl-6 ">Firebase</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Firestore />
+                <i className="pl-6 ">Firestore</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Redux />
+                <i className="pl-8 ">Redux</i >
+              </div>
             </div>
-
-            {/* Sixteenth Logo */}
-            <div className="absolute left-[734px] top-[330px]">
-              <JavaIcon />
-            </div>
-
-            {/* Seventeenth Logo */}
-            <div className="absolute left-[960px] top-[285px]">
-              <LinuxIcon />
-            </div>
-
-            {/* Eighteenth Logo */}
-            <div className="absolute left-[1220px] top-[295px] w-[130px] h-[130px]">
-              <RestApi />
+            {/* Row 4 */}
+            <div id="row4" className="flex items-stretch ... py-4">
+              <div className="col w-[16.6%] pl-9">
+                <Redux_Toolkit />
+                <i className="pl-2 ">Redux-Toolkit</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <HTML />
+                <i className="pl-6 ">HTML 5</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <CSS />
+                <i className="pl-7 ">CSS 3</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Bootstrap />
+                <i className="pl-3 ">Bootstrap 5</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <SCSS />
+                <i className="pl-8 ">SCSS</i >
+              </div>
+              <div className="col w-[16.6%] pl-9">
+                <Chakra_UI />
+                <i className="pl-5 ">ChakraUI</i >
+              </div>
             </div>
           </div>
 
@@ -300,7 +332,7 @@ function Resume() {
               <div className="h-[33px] w-[31.25rem]">
                 <div className="mt-[20px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[2px] border-l-[0] rounded-t-xl rounded-r-xl rounded-b-xl rounded-l-none ">
                   <div className="w-[100px] ml-[42px]">
-                  <img src={sevenOvn} alt="My Image" className="mt-[3px]"/>
+                    <img src={sevenOvn} alt="My Image" className="mt-[3px]" />
                   </div>
                   <div className="ml-[42px] font-PlayfairDisplayBold">
                     Sept 2022 - present
@@ -630,7 +662,7 @@ function Resume() {
               <div className="h-[33px] w-[100%]">
                 <div className="mt-[30px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[0px] border-l-[2px] rounded-t-xl rounded-r-none rounded-b-xl rounded-l-xl ">
                   <a
-                    href="https://github.com/Abdullah-9862873/Full_Stack_Ecommerce_Store"
+                    href="https://github.com/Ahmadjajja/Full_Stack_Ecommerce_Store"
                     className="w-auto ml-[42px]"
                   >
                     <GitHubIconForProjectsSection />
@@ -667,7 +699,7 @@ function Resume() {
               <div className="h-[33px] w-[100%]">
                 <div className="mt-[30px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[0px] border-l-[2px] rounded-t-xl rounded-r-none rounded-b-xl rounded-l-xl ">
                   <a
-                    href="https://github.com/Abdullah-9862873/ToDo_List_App"
+                    href="https://github.com/Ahmadjajja/ToDo_List_App"
                     className="w-auto ml-[42px]"
                   >
                     <GitHubIconForProjectsSection />
@@ -701,7 +733,7 @@ function Resume() {
               <div className="h-[33px] w-[100%]">
                 <div className="mt-[30px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[0px] border-l-[2px] rounded-t-xl rounded-r-none rounded-b-xl rounded-l-xl ">
                   <a
-                    href="https://github.com/Abdullah-9862873/Microsoft-Clone-Responsive-Website"
+                    href="https://github.com/Ahmadjajja/Microsoft-Clone-Responsive-Website"
                     className="w-auto ml-[42px]"
                   >
                     <GitHubIconForProjectsSection />
