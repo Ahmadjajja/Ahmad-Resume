@@ -32,8 +32,10 @@ import layerImage from "../Invicuts-Images/layer.png";
 import keyImage from "../Invicuts-Images/key.png";
 import profileImage from "../Invicuts-Images/profile.png";
 import freelancerImage from "../Invicuts-Images/freelancer.png";
-import sevenOvn from "../Invicuts-Images/sevenOvnLogo.png";
-import fourOvr from "../Invicuts-Images/fourOvrLogo.png";
+// import sevenOvn from "../Education-Images/SMIT.jpeg";
+import SMIT from "../Invicuts-Images/SMIT.jpg";
+import ZWTECH from "../Invicuts-Images/ZWTECH.png";
+import Seeraht from "../Invicuts-Images/Seeraht.png";
 
 // Projects Section
 import { ReactComponent as GitHubIconForProjectsSection } from "../svg/githubIconForProjectsSection.svg";
@@ -70,7 +72,7 @@ function Resume() {
             <div className="text-[60px] mt-[3.438rem] ml-[2.625rem] h-[30px] inline-block w-[43rem] font-PlayfairDisplayBlackItalic">
               Ahmad Jajja
             </div>
-            <div className="text-[32.6761px] leading-[46.6761px] ml-[2.625rem] w-[27rem] relative bottom-[0.5rem] font-SourceSerifProExtraLight font-semibold">
+            <div className="text-[32.6761px] leading-[46.6761px] ml-[2.625rem] w-[27rem] relative bottom-[0.5rem] font-SourceSerifProExtraLight font-semibold pt-2">
               Software Engineer
             </div>
             <div className="text-[25px] mt-[1.75rem] ml-[2.9rem]  font-MerriWeatherBlackItalic font-extrabold relative top-[25px]">
@@ -82,7 +84,7 @@ function Resume() {
               {/* Github */}
               <a
                 href="https://github.com/Ahmadjajja"
-                className="absolute right-[16.5rem] bottom-[115px] cursor-pointer"
+                className="absolute right-[16.5rem] bottom-[115px] cursor-pointer px-2"
               >
                 <img
                   className="w-[35px] h-[35px]"
@@ -92,9 +94,9 @@ function Resume() {
               {/* Linked in */}
               <a
                 href="https://www.linkedin.com/in/ahmad-jajja-ba8b34210/"
-                className="cursor-pointer"
+                className="cursor-pointer "
               >
-                <div className="absolute right-[13.7rem] bottom-[115px]">
+                <div className="absolute right-[13.7rem] bottom-[115px] px-1">
                   <img
                     className="w-[35px] h-[35px]"
                     src="https://img.icons8.com/fluency/48/null/linkedin.png"
@@ -104,9 +106,9 @@ function Resume() {
               {/* Leet code */}
               <a
                 href="https://leetcode.com/ahmadjajja86/"
-                className="absolute right-[10.9rem] bottom-[115px] cursor-pointer"
+                className="absolute right-[10.9rem] bottom-[115px] cursor-pointer "
               >
-                <div className="w-[35px] h-[35px]">
+                <div className="w-[35px] h-[35px] ">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
                       fill="#B3B1B0"
@@ -127,7 +129,7 @@ function Resume() {
 
             {/* Phone Number */}
             <div className="relative flex">
-              <div className="absolute right-[8.25rem] bottom-[77px] flex justify-center items-center">
+              <div className="absolute right-[9.25rem] bottom-[77px] flex justify-center items-center">
                 <div className="inline-block">
                   <img
                     className="w-[23px] h-[23px]"
@@ -160,7 +162,7 @@ function Resume() {
 
             {/* Internet Web Link */}
             <div className="relative flex">
-              <div className="absolute right-[7.262rem] bottom-[14px] flex justify-center items-center">
+              <div className="absolute right-[10.262rem] bottom-[14px] flex justify-center items-center">
                 <div className="inline-block">
                   <svg
                     fill="#000000"
@@ -332,16 +334,16 @@ function Resume() {
               <div className="h-[33px] w-[31.25rem]">
                 <div className="mt-[20px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[2px] border-l-[0] rounded-t-xl rounded-r-xl rounded-b-xl rounded-l-none ">
                   <div className="w-[100px] ml-[42px]">
-                    <img src={sevenOvn} alt="My Image" className="mt-[3px]" />
+                    <img src={SMIT} alt="My Image" className="mt-[3px]" />
                   </div>
-                  <div className="ml-[42px] font-PlayfairDisplayBold">
-                    Sept 2022 - present
+                  <div className="ml-[42px] font-PlayfairDisplayBold pt-4">
+                    Dec 2022 - present
                   </div>
                 </div>
               </div>
 
               {/* First */}
-              <div className="ml-[4rem] flex mt-[25px]">
+              <div className="ml-[4rem] flex mt-[40px]">
                 <span>
                   <img
                     className="h-[25px] w-[25px]"
@@ -350,7 +352,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[30px] font-MerriWeatherBlack">
-                  Full Stack Engineer
+                  MERN-Stack-Trainer
                 </span>
               </div>
 
@@ -363,8 +365,8 @@ function Resume() {
                     alt="info"
                   />
                 </span>
-                <span className="ml-[25px]">
-                  HTML/CSS JS Node Express React Redux MongoDb Rest_Api
+                <span className="ml-[25px] pl-5">
+                  HTML5, CSS3, Bootstrap5, JS, TS, ReactJS, ReactNative, Redux, ContextAPI, NodeJS, ExpressJS, MongoDb, Firebase, Firestore, Git, Github, Heroku, Netlify, Surge
                 </span>
               </div>
 
@@ -377,12 +379,12 @@ function Resume() {
                     alt="info"
                   />
                 </span>
-                <span className="ml-[34px]">
-                  Designed, developed and modified{" "}
+                <span className="ml-[34px] pl-1">
+                  Instructed nearly {" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
-                    4+ software systems
+                    200
                   </span>{" "}
-                  and custom components.
+                  students.
                 </span>
               </div>
 
@@ -396,12 +398,10 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[34px]">
-                  Analyzed{" "}
-                  <span className="font-MerriWeatherBlack tracking-tighter">
-                    30+ user requirements
+                  My role involves delivering comprehensive training sessions on the
+                  {" "}<span className="font-MerriWeatherBlack tracking-tighter">
+                    MERN stack
                   </span>{" "}
-                  to derive technical software design and performance
-                  requirements.
                 </span>
               </div>
 
@@ -414,14 +414,11 @@ function Resume() {
                     alt="info"
                   />
                 </span>
-                <span className="ml-[34px]">
-                  Developed and executed{" "}
-                  <span className="font-MerriWeatherBlack tracking-tighter">
-                    5+ test procedures
-                  </span>{" "}
-                  for software components.
+                <span className="ml-[34px] pl-1">
+                  Providing instructions in various hosting and version control platforms
                 </span>
               </div>
+
               {/* NaxTech */}
               {/* Image and first banner */}
               <div className="h-[33px] w-[31.25rem]">
@@ -429,12 +426,12 @@ function Resume() {
                   <div className="w-[100px] ml-[42px]">
                     <img
                       className="bg-[#151515]"
-                      src={fourOvr}
+                      src={ZWTECH}
                       alt="My Image"
                     />
                   </div>
                   <div className="ml-[42px] font-PlayfairDisplayBold">
-                    Feb 2022- Aug 2022 (7 months)
+                    Sep 2022- Mar 2023 (6 months)
                   </div>
                 </div>
               </div>
@@ -449,7 +446,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[30px] font-MerriWeatherBlack">
-                  Frontend Developer
+                  MERN Stack Developer
                 </span>
               </div>
 
@@ -462,7 +459,7 @@ function Resume() {
                     alt="info"
                   />
                 </span>
-                <span className="ml-[25px]">HTML/CSS JS React Context Api</span>
+                <span className="ml-[25px] pl-2">HTML, CSS, ChakraUI, AuntDesign, JS, TS, ReactJS, ContextApi, Redux, NodeJS, ExpressJS, GraphQL </span>
               </div>
 
               {/* Third */}
@@ -475,11 +472,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[36px]">
-                  Developed and upheld UI standards for over{" "}
-                  <span className="font-MerriWeatherBlack tracking-tighter">
-                    10 websites
-                  </span>
-                  , comprising of more than 20 pages
+                  Modified React JS front-end for UAE recruitment business website, resembling LinkedIn.
                 </span>
               </div>
 
@@ -493,8 +486,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[37px]">
-                  Implemented rich user experiences by creating multiple new
-                  features using HTML 5, CSS and JavsScript.
+                  Developed Node.js-based GraphQL APIs, enhancing data management and integration for Dashboard.
                 </span>
               </div>
 
@@ -509,7 +501,7 @@ function Resume() {
                 </span>
                 <span className="ml-[37px]">
                   Led the Desgning team and collaborated with product managers,
-                  business parteners, and engineers to help define{" "}
+                  business partners, and engineers to help define{" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
                     product requirements and roadmap
                   </span>{" "}
@@ -517,38 +509,19 @@ function Resume() {
                 </span>
               </div>
 
-              {/* Sixth */}
-              <div className="ml-[4rem] flex mt-[10px]">
-                <span>
-                  <img
-                    className="h-[20px] w-[23px] mt-[8px]"
-                    src={profileImage}
-                    alt="info"
-                  />
-                </span>
-                <span className="ml-[37px]">
-                  Worked cross-functionally with developers to implement new
-                  features and maintain{" "}
-                  <span className="font-MerriWeatherBlack tracking-tighter">
-                    site usability
-                  </span>
-                  .
-                </span>
-              </div>
-
-              {/* Freelancing */}
+              {/* Seeraht */}
               {/* Image and first banner */}
               <div className="h-[33px] w-[31.25rem]">
                 <div className="mt-[20px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[2px] border-l-[0] rounded-t-xl rounded-r-xl rounded-b-xl rounded-l-none ">
-                  <div className="w-[100px] h-[30px] ml-[60px]">
+                  <div className="w-[100px] ml-[42px]">
                     <img
-                      className="h-[30px]"
-                      src={freelancerImage}
-                      alt="freelancer logo"
+                      className="bg-[#151515]"
+                      src={Seeraht}
+                      alt="My Image"
                     />
                   </div>
-                  <div className="ml-[24px] font-PlayfairDisplayBold">
-                    Nov 2021 - present
+                  <div className="ml-[42px] font-PlayfairDisplayBold">
+                    May 2022- Aug 2022 (4 months)
                   </div>
                 </div>
               </div>
@@ -563,7 +536,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[30px] font-MerriWeatherBlack">
-                  Freelacing as a Full Stack Web Developer & Content Writer
+                  MERN Stack Developer
                 </span>
               </div>
 
@@ -576,61 +549,34 @@ function Resume() {
                     alt="info"
                   />
                 </span>
-                <span className="ml-[25px]">
-                  HTML/CSS JS Node Express React Redux MongoDb Rest_Api
-                  Context_Api Java
-                </span>
+                <span className="ml-[25px] pl-3">HTML, CSS, Bootstrap 5, JS, TS, ReactJS, ContextApi, Redux, NodeJS, ExpressJS, GraphQL, Firebase, Firestore </span>
               </div>
 
               {/* Third */}
               <div className="ml-[4rem] flex mt-[10px]">
                 <span>
                   <img
-                    className="h-[20px] w-[44px] mt-[8px]"
+                    className="h-[20px] w-[20px] mt-[8px]"
                     src={keyImage}
                     alt="info"
                   />
                 </span>
-                <div className="ml-[36px]">
-                  Developed and delivered a wide range of web-based solutions,
-                  utilizing front-end technologies such as HTML, CSS, and
-                  JavaScript, as well as backend technologies such as Node.js
-                  and Express js.
-                </div>
+                <span className="ml-[36px] pl-1">
+                  Developed & maintained MERN web apps at Seeraht, prioritizing quality, scalability, and efficiency.
+                </span>
               </div>
 
               {/* Fourth */}
               <div className="ml-[4rem] flex mt-[10px]">
                 <span>
                   <img
-                    className="h-[20px] w-[43px] mt-[8px]"
+                    className="h-[20px] w-[23px] mt-[8px]"
                     src={keyImage}
                     alt="info"
                   />
                 </span>
-                <span className="ml-[37px]">
-                  Built and maintained strong relationships with clients through
-                  effective communication and problem-solving skills, ensuring
-                  timely completion and adherence to project requirements.
-                </span>
-              </div>
-
-              {/* Fifth */}
-              <div className="ml-[4rem] flex mt-[10px]">
-                <span>
-                  <img
-                    className="h-[20px] w-[35px] mt-[8px]"
-                    src={keyImage}
-                    alt="info"
-                  />
-                </span>
-                <span className="ml-[37px]">
-                  Accomplished in utilizing version control systems such as Git
-                  and SVN, and implementing{" "}
-                  <span className="font-MerriWeatherBlack tracking-tighter">
-                    agile methodologies
-                  </span>{" "}
-                  for efficient project management.
+                <span className="ml-[37px] pl-1">
+                  Collaborated with cross-functional teams, implementing complex software features using modern development techniques.
                 </span>
               </div>
 
@@ -651,6 +597,20 @@ function Resume() {
                   and services.
                 </span>
               </div>
+              {/* Fifth */}
+              <div className="ml-[4rem] flex mt-[10px]">
+                <span>
+                  <img
+                    className="h-[20px] w-[34px] mt-[8px]"
+                    src={profileImage}
+                    alt="info"
+                  />
+                </span>
+                <span className="ml-[37px] pl-2">
+                  Performed code reviews, troubleshooted code issues, and actively participated in the software development lifecycle. Utilized MERN stack, Agile practices, and effective communication for transformative web applications.
+                </span>
+              </div>
+
             </div>
             {/* Second SubSection */}
             <div className="w-[43%]">
@@ -662,25 +622,21 @@ function Resume() {
               <div className="h-[33px] w-[100%]">
                 <div className="mt-[30px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[0px] border-l-[2px] rounded-t-xl rounded-r-none rounded-b-xl rounded-l-xl ">
                   <a
-                    href="https://github.com/Ahmadjajja/Full_Stack_Ecommerce_Store"
+                    href="https://github.com/Ahmadjajja/React_Bank"
                     className="w-auto ml-[42px]"
+                    target="_blank"
                   >
                     <GitHubIconForProjectsSection />
                   </a>
                   <div className="ml-[20px] font-PlayfairDisplayBold">
-                    Full Stack Ecommerce Site
+                    Full Stack Bank WEB APP
                   </div>
                 </div>
               </div>
 
               {/* First Project Description */}
               <p className="ml-[89px] mt-[20px]">
-                This website offers full ecommerce functionality, including
-                admin and user operations such as{" "}
-                <span className="font-MerriWeatherBlack tracking-tighter">
-                  payment, authentication and shipping
-                </span>{" "}
-                controls.
+                Bank-App is a web application allowing users to manage accounts, perform transactions, and view transaction history conveniently.
               </p>
               <div className="ml-[5.5rem] flex mt-[10px]">
                 <span>
@@ -691,7 +647,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[20px]">
-                  HTML/CSS JS Node Express React Redux MongoDb Rest_Api
+                  HTML, CSS, Bootstrap5, JS, React, Context API, Firebase, Firestore
                 </span>
               </div>
 
@@ -699,22 +655,20 @@ function Resume() {
               <div className="h-[33px] w-[100%]">
                 <div className="mt-[30px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[0px] border-l-[2px] rounded-t-xl rounded-r-none rounded-b-xl rounded-l-xl ">
                   <a
-                    href="https://github.com/Ahmadjajja/ToDo_List_App"
+                    href="https://github.com/Ahmadjajja/Hackathon_Frontend_2022_Batch_04"
                     className="w-auto ml-[42px]"
                   >
                     <GitHubIconForProjectsSection />
                   </a>
                   <div className="ml-[20px] font-PlayfairDisplayBold">
-                    ToDo List App
+                    Full Stack Real Estate Mobile App
                   </div>
                 </div>
               </div>
 
               {/* Second Project Description */}
               <p className="ml-[89px] mt-[20px]">
-                This todo list app is a productivity tool that allows users to
-                manage their tasks, set reminders, and prioritize them
-                efficiently.
+                Real-Estate Mobile App with authentication, dashboard, property management, searching, browsing and call-to-action feature for property tansactions, powered by REST APIs using Node JS.
               </p>
               <div className="ml-[5.5rem] flex mt-[10px]">
                 <span>
@@ -725,7 +679,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[20px]">
-                  HTML/CSS JavaScript React Context Api
+                  Javascript, ReactNative, NativeBase, Redux, ContextAPI, NodeJS, ExpressJS, MongoDB
                 </span>
               </div>
 
@@ -733,28 +687,20 @@ function Resume() {
               <div className="h-[33px] w-[100%]">
                 <div className="mt-[30px] flex bg-[#e8ffed] border-t-[2px] border-b-[2px] border-r-[0px] border-l-[2px] rounded-t-xl rounded-r-none rounded-b-xl rounded-l-xl ">
                   <a
-                    href="https://github.com/Ahmadjajja/Microsoft-Clone-Responsive-Website"
+                    href="https://github.com/Ahmadjajja/Frontend_Eshop.git"
                     className="w-auto ml-[42px]"
                   >
                     <GitHubIconForProjectsSection />
                   </a>
                   <div className="ml-[20px] font-PlayfairDisplayBold">
-                    Microsoft Clone
+                    Full Stack E-Commerce Mobile App
                   </div>
                 </div>
               </div>
 
               {/* Third Project Description */}
               <p className="ml-[89px] mt-[20px]">
-                An official US Mircosoft website clone featuring full{" "}
-                <span className="font-MerriWeatherBlack tracking-tighter">
-                  responsiveness
-                </span>{" "}
-                and all the necessary{" "}
-                <span className="font-MerriWeatherBlack tracking-tighter">
-                  front-end
-                </span>{" "}
-                functionality.
+                E-commerce mobile app with user registration, product catalog, cart, wishlist, checkout, payment, order tracking, and admin dashboard.
               </p>
               <div className="ml-[5.5rem] flex mt-[10px]">
                 <span>
@@ -765,7 +711,7 @@ function Resume() {
                   />
                 </span>
                 <span className="ml-[20px]">
-                  HTML Tailwind_Css JavaScript React
+                  JavaScript, React-Native, Redux, Context-API, Native-Base, Node-JS, Express JS, Mongodb
                 </span>
               </div>
 
@@ -780,11 +726,10 @@ function Resume() {
                   <img className="mt-[8px]" src={MedalIcon} alt="medalIcon" />
                 </div>
                 <div className="ml-[20px]">
-                  Proficient in solving programming questions using advanced{" "}
+                  Solved 200+ {" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
                     Data Structures and Algorithms
-                  </span>
-                  . Solved 200+ programming problems
+                  </span>{" "} problems on different plateforms
                 </div>
               </div>
 
@@ -795,11 +740,7 @@ function Resume() {
                   <img className="mt-[8px]" src={MedalIcon} alt="medalIcon" />
                 </div>
                 <div className="ml-[20px]">
-                  Comfortable in working with{" "}
-                  <span className="font-MerriWeatherBlack tracking-tighter">
-                    JavaScript, Java, C++, and Python
-                  </span>{" "}
-                  programming languages.
+                  Proficient in JavaScript, TypeScript, Java, C, C++, and Python languages.
                 </div>
               </div>
 
@@ -825,15 +766,14 @@ function Resume() {
                   <img className="mt-[8px]" src={MedalIcon} alt="medalIcon" />
                 </div>
                 <div className="ml-[20px]">
-                  Completed{" "}
+                  Completed one year{" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
-                    Big Data & Data Science
+                    Web and Mobile App Development
                   </span>{" "}
-                  with Hadoop Eo{" "}
+                  Course from {" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
-                    Cloud
+                    Saylani Mass IT Training Programs(SMIT).
                   </span>{" "}
-                  System
                 </div>
               </div>
 
@@ -857,7 +797,7 @@ function Resume() {
                 </div>
                 <div className="flex ml-[106px] font-LatoItalic ">
                   <p>2020-2024</p>
-                  <p className="ml-[60px]">CGPA 3.5/4</p>
+                  <p className="ml-[60px]">CGPA 3.35/4</p>
                 </div>
               </div>
             </div>
