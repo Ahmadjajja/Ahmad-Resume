@@ -635,7 +635,7 @@ function Resume() {
               </div>
 
               {/* First Project Description */}
-              <p className="ml-[89px] mt-[20px]">
+              <p className="ml-[89px] mt-[15px]">
                 Bank-App is a web application allowing users to manage accounts, perform transactions, and view transaction history conveniently.
               </p>
               <div className="ml-[5.5rem] flex mt-[10px]">
@@ -667,7 +667,7 @@ function Resume() {
               </div>
 
               {/* Second Project Description */}
-              <p className="ml-[89px] mt-[20px]">
+              <p className="ml-[89px] mt-[15px]">
                 Real-Estate Mobile App with authentication, dashboard, property management, searching, browsing and call-to-action feature for property tansactions, powered by REST APIs using Node JS.
               </p>
               <div className="ml-[5.5rem] flex mt-[10px]">
@@ -699,7 +699,7 @@ function Resume() {
               </div>
 
               {/* Third Project Description */}
-              <p className="ml-[89px] mt-[20px]">
+              <p className="ml-[89px] mt-[15px]">
                 E-commerce mobile app with user registration, product catalog, cart, wishlist, checkout, payment, order tracking, and admin dashboard.
               </p>
               <div className="ml-[5.5rem] flex mt-[10px]">
@@ -716,16 +716,16 @@ function Resume() {
               </div>
 
               {/* Achievements */}
-              <div className="ml-[42px] mt-[15px] text-[41.4899px] tracking-tighter font-RighteousRegular">
+              <div className="ml-[42px] mt-[10px] text-[41.4899px] tracking-tighter font-RighteousRegular">
                 Achievements
               </div>
 
               {/* First Achievement */}
-              <div className="ml-[62px] mt-[20px] flex">
-                <div className="w-[70px]">
+              <div className="ml-[62px] mt-[5px] flex">
+                <div className="w-[10%]">
                   <img className="mt-[8px]" src={MedalIcon} alt="medalIcon" />
                 </div>
-                <div className="ml-[20px]">
+                <div className="w-[90%] pl-3 pt-4">
                   Solved 200+ {" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
                     Data Structures and Algorithms
@@ -735,22 +735,22 @@ function Resume() {
 
               {/* Second Achievement */}
 
-              <div className="ml-[62px] mt-[20px] flex">
-                <div className="w-[50px]">
+              <div className="ml-[62px] mt-[5px] flex">
+                <div className="w-[10%]">
                   <img className="mt-[8px]" src={MedalIcon} alt="medalIcon" />
                 </div>
-                <div className="ml-[20px]">
+                <div className="w-[90%] pl-3 pt-4">
                   Proficient in JavaScript, TypeScript, Java, C, C++, and Python languages.
                 </div>
               </div>
 
               {/* Third Achievement */}
 
-              <div className="ml-[62px] mt-[20px] flex">
-                <div className="w-[37px]">
+              <div className="ml-[62px] mt-[5px] flex">
+                <div className="w-[10%]">
                   <img className="mt-[8px]" src={MedalIcon} alt="medalIcon" />
                 </div>
-                <div className="ml-[20px]">
+                <div className="w-[90%] pl-3 pt-4">
                   Completed{" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
                     JavaScript
@@ -759,13 +759,13 @@ function Resume() {
                 </div>
               </div>
 
-              {/* Third Achievement */}
+              {/* Fourth Achievement */}
 
-              <div className="ml-[62px] mt-[20px] flex">
-                <div className="w-[37px]">
+              <div className="ml-[62px] mt-[5px] flex">
+                <div className="w-[10%]">
                   <img className="mt-[8px]" src={MedalIcon} alt="medalIcon" />
                 </div>
-                <div className="ml-[20px]">
+                <div className="w-[90%] pl-3 pt-4">
                   Completed one year{" "}
                   <span className="font-MerriWeatherBlack tracking-tighter">
                     Web and Mobile App Development
@@ -788,7 +788,7 @@ function Resume() {
                   <img src={graduationImage} alt="graduation logo" />
                 </div>
                 <div className="ml-[20px] mt-[30px] font-MerriWeatherBlack">
-                  Bachelor of Software Engineering
+                  Bachelor in Computer Science
                 </div>
               </div>
               <div>
