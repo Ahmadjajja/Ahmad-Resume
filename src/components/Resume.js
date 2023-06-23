@@ -162,7 +162,7 @@ function Resume() {
 
             {/* Internet Web Link */}
             <div className="relative flex">
-              <div className="absolute right-[10.262rem] bottom-[14px] flex justify-center items-center">
+              <div className="absolute right-[8.262rem] bottom-[14px] flex justify-center items-center">
                 <div className="inline-block">
                   <svg
                     fill="#000000"
@@ -201,8 +201,8 @@ function Resume() {
                     />
                   </svg>
                 </div>
-                <a href="https://ahmad-jajja.com" className="inline-block items-center justify-center ml-[7px] font-mono tracking-tight">
-                  ahmad-jajja.com
+                <a href="https://ahmad-jajja.netlify.app/" className="inline-block items-center justify-center ml-[7px] font-mono tracking-tight" target="_blank">
+                  ahmad-jajja.netlify.app
                 </a>
               </div>
             </div>
